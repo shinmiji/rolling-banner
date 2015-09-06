@@ -1,0 +1,35 @@
+@charset "utf-8";
+* {
+	margin: 0;
+	padding: 0;
+}
+ul {
+	list-style: none;
+}
+
+.wrap {
+	width: 960px;
+	margin: 20px auto;
+}
+.banner {
+	overflow: hidden;
+}
+
+.banner > ul:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.banner li {
+	float: left;
+}
+
+button {
+	padding: 10px;
+	border-radius: 10px;
+	margin-top: 10px;
+	background-color: #BBF4E4;
+	border: none;
+	box-shadow: 2px 2px 2px #0FE5DA;
+}
